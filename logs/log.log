@@ -1,0 +1,98 @@
+05-07-2019 19:29:21.105 [main] INFO  c.dawang.dawangj.DawangjApplication.logStarting - Starting DawangjApplication on HANM14698.local with PID 37803 (/Users/dawang/Documents/workspace-spring-tool-suite-4-4.3.0.RELEASE/dawangj/target/classes started by dawang in /Users/dawang/Documents/workspace-spring-tool-suite-4-4.3.0.RELEASE/dawangj)
+05-07-2019 19:29:21.108 [main] INFO  c.dawang.dawangj.DawangjApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+05-07-2019 19:29:21.665 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+05-07-2019 19:29:21.682 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+05-07-2019 19:29:21.683 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.21]
+05-07-2019 19:29:21.740 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+05-07-2019 19:29:21.879 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+05-07-2019 19:29:21.930 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping.<init> - Adding welcome page: class path resource [static/index.html]
+05-07-2019 19:29:21.993 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+05-07-2019 19:29:21.997 [main] INFO  c.dawang.dawangj.DawangjApplication.logStarted - Started DawangjApplication in 1.105 seconds (JVM running for 1.559)
+05-07-2019 19:29:39.262 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+05-07-2019 19:32:31.452 [RMI TCP Connection(15)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+05-07-2019 19:32:31.454 [RMI TCP Connection(15)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+05-07-2019 19:32:33.973 [main] INFO  c.dawang.dawangj.DawangjApplication.logStarting - Starting DawangjApplication on HANM14698.local with PID 37812 (/Users/dawang/Documents/workspace-spring-tool-suite-4-4.3.0.RELEASE/dawangj/target/classes started by dawang in /Users/dawang/Documents/workspace-spring-tool-suite-4-4.3.0.RELEASE/dawangj)
+05-07-2019 19:32:33.977 [main] INFO  c.dawang.dawangj.DawangjApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+05-07-2019 19:32:34.578 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+05-07-2019 19:32:34.598 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+05-07-2019 19:32:34.605 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.21]
+05-07-2019 19:32:34.672 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+05-07-2019 19:32:34.869 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+05-07-2019 19:32:34.929 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping.<init> - Adding welcome page: class path resource [static/index.html]
+05-07-2019 19:32:35.002 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+05-07-2019 19:32:35.006 [main] INFO  c.dawang.dawangj.DawangjApplication.logStarted - Started DawangjApplication in 1.261 seconds (JVM running for 1.912)
+05-07-2019 19:32:48.332 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+05-07-2019 19:36:13.994 [main] INFO  c.dawang.dawangj.DawangjApplication.logStarting - Starting DawangjApplication on HANM14698.local with PID 37828 (/Users/dawang/Documents/workspace-spring-tool-suite-4-4.3.0.RELEASE/dawangj/target/classes started by dawang in /Users/dawang/Documents/workspace-spring-tool-suite-4-4.3.0.RELEASE/dawangj)
+05-07-2019 19:36:13.997 [main] INFO  c.dawang.dawangj.DawangjApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+05-07-2019 19:36:14.569 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+05-07-2019 19:36:14.600 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+05-07-2019 19:36:14.600 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.21]
+05-07-2019 19:36:14.655 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+05-07-2019 19:36:14.788 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+05-07-2019 19:36:14.840 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping.<init> - Adding welcome page: class path resource [static/index.html]
+05-07-2019 19:36:14.900 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+05-07-2019 19:36:14.905 [main] INFO  c.dawang.dawangj.DawangjApplication.logStarted - Started DawangjApplication in 1.124 seconds (JVM running for 1.678)
+05-07-2019 19:36:16.873 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+05-07-2019 19:36:16.890 [http-nio-8080-exec-1] INFO  com.dawang.dawangj.WeChatController.processPost - 开始校验信息是否是从微信服务器发出
+05-07-2019 19:36:35.121 [http-nio-8080-exec-3] INFO  com.dawang.dawangj.WeChatController.processPost - 开始校验信息是否是从微信服务器发出
+05-07-2019 19:36:35.128 [http-nio-8080-exec-3] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet].log - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at java.base/java.util.ComparableTimSort.countRunAndMakeAscending(ComparableTimSort.java:320)
+	at java.base/java.util.ComparableTimSort.sort(ComparableTimSort.java:188)
+	at java.base/java.util.Arrays.sort(Arrays.java:1249)
+	at com.dawang.dawangj.SignatureUtil.checkSignature(SignatureUtil.java:31)
+	at com.dawang.dawangj.WeChatController.processPost(WeChatController.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
