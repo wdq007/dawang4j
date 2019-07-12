@@ -1,4 +1,4 @@
-package com.dawang.dawangj;
+package com.dawang.dawangj.utils;
 
 import java.io.InputStream;
 import java.net.HttpURLConnection;
