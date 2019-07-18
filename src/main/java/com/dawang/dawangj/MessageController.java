@@ -18,9 +18,9 @@ private WechatConf wechatConf;
 public Object sendMessage(@RequestBody UserCarInfo userCarInfo) {
 MessageTemplate messageTemplate = new MessageTemplate();
 // 设置模板id
-messageTemplate.setTemplateId("othsG1ZD5w9ywTGyV6XCECnY1Q1oAIY5e-NvF94fzAI");
+messageTemplate.setTemplateId("sLuD0d72M393JGSuNsimqupnz6OJuAIfmX6a08If9Kw");
 // 设置接收用户openId
-messageTemplate.setToUser("oUbk_1bVlUGqhMzQHMC_jbkysMgY");
+messageTemplate.setToUser("o7v4k1cP2Chg7MiSgnh3b3xI8DtE");
 //点击详情跳转的地址
 messageTemplate.setUrl("http://www.baidu.com");
 //设置模板dada参数

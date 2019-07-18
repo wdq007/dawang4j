@@ -1,4 +1,4 @@
-package com.dawang.dawangj;
+package com.dawang.dawangj.demo;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

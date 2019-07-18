@@ -35,6 +35,9 @@ public class WeChatController extends BaseController {
         this.getResponse().setCharacterEncoding("UTF-8");
 
         logger.info("开始校验信息是否是从微信服务器发出");
+        logger.info(this.getRequest().getContentType());
+        logger.info(this.getResponse().getHeader(_CSRF_RANDOM_TOKEN));
+        
 
         // 签名
         String signature = this.getRequest().getParameter("signature");
