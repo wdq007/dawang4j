@@ -10,8 +10,8 @@ import javax.net.ssl.HttpsURLConnection;
 public class AccessToken {
 	
 	private final String ACCESS_TOKEN_URL = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=APPID&secret=APPSECRET";
-    private final String APPID="wx009978827fa7c22b";
-    private final String CRED="72aa7f03fef4f3b3a15f0c907e37bc12";
+    private final String APPID="wx8ee3c7b701e38f2e";
+    private final String CRED="f650b5e4dc2f20c4f82734ec254ad234";
     
     public void getToken(String appid, String cred) {
     	String requestUrl = ACCESS_TOKEN_URL.replace("APPID", appid).replace("APPSECRET", cred);

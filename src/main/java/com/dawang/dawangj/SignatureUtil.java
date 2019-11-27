@@ -42,6 +42,7 @@ public class SignatureUtil {
             // 将三个参数字符串拼接成一个字符串进行sha1加密
             byte[] digest = md.digest(content.toString().getBytes());
             tmpStr = byteToStr(digest);
+            System.out.println("Util encrypted: "+tmpStr);
         } catch (NoSuchAlgorithmException e) {
             e.printStackTrace();
         }
