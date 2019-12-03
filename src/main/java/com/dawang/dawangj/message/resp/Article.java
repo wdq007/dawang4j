@@ -1,4 +1,4 @@
-package com.dawang.dawangj;
+package com.dawang.dawangj.message.resp;
 
 
 /**

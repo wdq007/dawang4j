@@ -1,57 +1,112 @@
-21-11-2019 13:19:20.979 [RMI TCP Connection(960)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
-21-11-2019 13:19:20.982 [RMI TCP Connection(960)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
-21-11-2019 13:19:24.083 [main] INFO  c.d.dawangj.demo.DawangjApplication.logStarting - Starting DawangjApplication on HANM14698.local with PID 19702 (/Users/dawang/Documents/workspace-spring-tool-suite-4-4.3.0.RELEASE/dawangj/target/classes started by dawang in /Users/dawang/Documents/workspace-spring-tool-suite-4-4.3.0.RELEASE/dawangj)
-21-11-2019 13:19:24.086 [main] INFO  c.d.dawangj.demo.DawangjApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-21-11-2019 13:19:24.715 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
-21-11-2019 13:19:24.734 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
-21-11-2019 13:19:24.735 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.21]
-21-11-2019 13:19:24.805 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
-21-11-2019 13:19:24.974 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
-21-11-2019 13:19:25.037 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping.<init> - Adding welcome page: class path resource [static/index.html]
-21-11-2019 13:19:25.122 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
-21-11-2019 13:19:25.126 [main] INFO  c.d.dawangj.demo.DawangjApplication.logStarted - Started DawangjApplication in 1.296 seconds (JVM running for 2.104)
-21-11-2019 13:19:25.631 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
-21-11-2019 13:19:25.633 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
-21-11-2019 13:19:32.917 [main] INFO  c.d.dawangj.demo.DawangjApplication.logStarting - Starting DawangjApplication on HANM14698.local with PID 19703 (/Users/dawang/Documents/workspace-spring-tool-suite-4-4.3.0.RELEASE/dawangj/target/classes started by dawang in /Users/dawang/Documents/workspace-spring-tool-suite-4-4.3.0.RELEASE/dawangj)
-21-11-2019 13:19:32.920 [main] INFO  c.d.dawangj.demo.DawangjApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-21-11-2019 13:19:33.485 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
-21-11-2019 13:19:33.503 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
-21-11-2019 13:19:33.503 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.21]
-21-11-2019 13:19:33.565 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
-21-11-2019 13:19:33.727 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
-21-11-2019 13:19:33.798 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping.<init> - Adding welcome page: class path resource [static/index.html]
-21-11-2019 13:19:33.881 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
-21-11-2019 13:19:33.885 [main] INFO  c.d.dawangj.demo.DawangjApplication.logStarted - Started DawangjApplication in 1.197 seconds (JVM running for 1.685)
-21-11-2019 13:20:47.606 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
-21-11-2019 13:20:47.631 [http-nio-8080-exec-1] INFO  com.dawang.dawangj.demo.WxController.wxGet - 9677275858894534
-21-11-2019 13:20:47.631 [http-nio-8080-exec-1] INFO  com.dawang.dawangj.demo.WxController.wxGet - bf477e12d2a1c3f431203b2ba251c3b97091331d
-21-11-2019 13:20:47.631 [http-nio-8080-exec-1] INFO  com.dawang.dawangj.demo.WxController.wxGet - 1574313604
-21-11-2019 13:20:47.632 [http-nio-8080-exec-1] INFO  com.dawang.dawangj.demo.WxController.wxGet - 1148909738
-21-11-2019 13:20:47.632 [http-nio-8080-exec-1] INFO  com.dawang.dawangj.demo.WxController.wxGet - wx8ee3c7b701e38f2e
-21-11-2019 13:20:47.633 [http-nio-8080-exec-1] INFO  com.dawang.dawangj.demo.WxController.wxGet - 接入成功，echostr 9677275858894534
-21-11-2019 13:22:22.956 [RMI TCP Connection(12)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
-21-11-2019 13:22:22.959 [RMI TCP Connection(12)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
-21-11-2019 13:22:32.453 [main] INFO  c.d.dawangj.demo.DawangjApplication.logStarting - Starting DawangjApplication on HANM14698.local with PID 19709 (/Users/dawang/Documents/workspace-spring-tool-suite-4-4.3.0.RELEASE/dawangj/target/classes started by dawang in /Users/dawang/Documents/workspace-spring-tool-suite-4-4.3.0.RELEASE/dawangj)
-21-11-2019 13:22:32.454 [main] INFO  c.d.dawangj.demo.DawangjApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-21-11-2019 13:22:33.004 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
-21-11-2019 13:22:33.023 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
-21-11-2019 13:22:33.023 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.21]
-21-11-2019 13:22:33.090 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
-21-11-2019 13:22:33.239 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
-21-11-2019 13:22:33.295 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping.<init> - Adding welcome page: class path resource [static/index.html]
-21-11-2019 13:22:33.381 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
-21-11-2019 13:22:33.385 [main] INFO  c.d.dawangj.demo.DawangjApplication.logStarted - Started DawangjApplication in 1.165 seconds (JVM running for 1.912)
-21-11-2019 13:22:40.641 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
-21-11-2019 13:25:26.766 [RMI TCP Connection(13)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
-21-11-2019 13:25:26.768 [RMI TCP Connection(13)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
-21-11-2019 13:25:32.863 [main] INFO  c.d.dawangj.demo.DawangjApplication.logStarting - Starting DawangjApplication on HANM14698.local with PID 19712 (/Users/dawang/Documents/workspace-spring-tool-suite-4-4.3.0.RELEASE/dawangj/target/classes started by dawang in /Users/dawang/Documents/workspace-spring-tool-suite-4-4.3.0.RELEASE/dawangj)
-21-11-2019 13:25:32.865 [main] INFO  c.d.dawangj.demo.DawangjApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
-21-11-2019 13:25:33.435 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
-21-11-2019 13:25:33.456 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
-21-11-2019 13:25:33.456 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.21]
-21-11-2019 13:25:33.519 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
-21-11-2019 13:25:33.671 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
-21-11-2019 13:25:33.729 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping.<init> - Adding welcome page: class path resource [static/index.html]
-21-11-2019 13:25:33.814 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
-21-11-2019 13:25:33.818 [main] INFO  c.d.dawangj.demo.DawangjApplication.logStarted - Started DawangjApplication in 1.182 seconds (JVM running for 1.877)
-21-11-2019 13:25:38.138 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02-12-2019 13:16:58.099 [RMI TCP Connection(1429)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+02-12-2019 13:16:58.104 [RMI TCP Connection(1429)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+02-12-2019 13:17:18.762 [main] INFO  c.d.dawangj.demo.DawangjApplication.logStarting - Starting DawangjApplication on HANM14698.local with PID 74056 (/Users/dawang/Documents/workspace-spring-tool-suite-4-4.3.0.RELEASE/dawangj/target/classes started by dawang in /Users/dawang/Documents/workspace-spring-tool-suite-4-4.3.0.RELEASE/dawangj)
+02-12-2019 13:17:18.764 [main] INFO  c.d.dawangj.demo.DawangjApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+02-12-2019 13:17:19.332 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+02-12-2019 13:17:19.360 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+02-12-2019 13:17:19.361 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.21]
+02-12-2019 13:17:19.420 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+02-12-2019 13:17:19.573 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+02-12-2019 13:17:19.629 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping.<init> - Adding welcome page: class path resource [static/index.html]
+02-12-2019 13:17:19.708 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+02-12-2019 13:17:19.712 [main] INFO  c.d.dawangj.demo.DawangjApplication.logStarted - Started DawangjApplication in 1.189 seconds (JVM running for 1.904)
+02-12-2019 13:21:26.397 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02-12-2019 13:21:26.424 [http-nio-8080-exec-1] INFO  com.dawang.dawangj.demo.WxController.wxGet - 3377205011160620864
+02-12-2019 13:21:26.424 [http-nio-8080-exec-1] INFO  com.dawang.dawangj.demo.WxController.wxGet - bf7499552364d07b7df0fcfefa63f8c5aa0a89f6
+02-12-2019 13:21:26.424 [http-nio-8080-exec-1] INFO  com.dawang.dawangj.demo.WxController.wxGet - 1575264000
+02-12-2019 13:21:26.425 [http-nio-8080-exec-1] INFO  com.dawang.dawangj.demo.WxController.wxGet - 758446539
+02-12-2019 13:21:26.425 [http-nio-8080-exec-1] INFO  com.dawang.dawangj.demo.WxController.wxGet - wx8ee3c7b701e38f2e
+02-12-2019 13:21:26.426 [http-nio-8080-exec-1] INFO  com.dawang.dawangj.demo.WxController.wxGet - 接入成功，echostr 3377205011160620864
+02-12-2019 18:43:54.701 [RMI TCP Connection(194)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+02-12-2019 18:43:54.714 [RMI TCP Connection(194)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+02-12-2019 18:44:05.810 [main] INFO  c.d.dawangj.demo.DawangjApplication.logStarting - Starting DawangjApplication on HANM14698.local with PID 74961 (/Users/dawang/Documents/workspace-spring-tool-suite-4-4.3.0.RELEASE/dawangj/target/classes started by dawang in /Users/dawang/Documents/workspace-spring-tool-suite-4-4.3.0.RELEASE/dawangj)
+02-12-2019 18:44:05.813 [main] INFO  c.d.dawangj.demo.DawangjApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+02-12-2019 18:44:06.398 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+02-12-2019 18:44:06.416 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+02-12-2019 18:44:06.417 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.21]
+02-12-2019 18:44:06.476 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+02-12-2019 18:44:06.628 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+02-12-2019 18:44:06.683 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping.<init> - Adding welcome page: class path resource [static/index.html]
+02-12-2019 18:44:06.771 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+02-12-2019 18:44:06.775 [main] INFO  c.d.dawangj.demo.DawangjApplication.logStarted - Started DawangjApplication in 1.243 seconds (JVM running for 1.955)
+02-12-2019 18:44:44.677 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02-12-2019 18:44:44.702 [http-nio-8080-exec-1] INFO  com.dawang.dawangj.demo.WxController.wxGet - 4904009672358357991
+02-12-2019 18:44:44.703 [http-nio-8080-exec-1] INFO  com.dawang.dawangj.demo.WxController.wxGet - 402f8fe5de4058277bfddce6fbab31c666f9835f
+02-12-2019 18:44:44.703 [http-nio-8080-exec-1] INFO  com.dawang.dawangj.demo.WxController.wxGet - 1575283398
+02-12-2019 18:44:44.703 [http-nio-8080-exec-1] INFO  com.dawang.dawangj.demo.WxController.wxGet - 1727119613
+02-12-2019 18:44:44.704 [http-nio-8080-exec-1] INFO  com.dawang.dawangj.demo.WxController.wxGet - wx8ee3c7b701e38f2e
+02-12-2019 18:44:44.704 [http-nio-8080-exec-1] INFO  com.dawang.dawangj.demo.WxController.wxGet - 接入成功，echostr 4904009672358357991
+02-12-2019 18:45:04.273 [http-nio-8080-exec-3] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet].log - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Handler dispatch failed; nested exception is java.lang.Error: Unresolved compilation problem: 
+	PrintWriter cannot be resolved to a type
+] with root cause
+java.lang.Error: Unresolved compilation problem: 
+	PrintWriter cannot be resolved to a type
+
+	at com.dawang.dawangj.demo.WxController.doPost(WxController.java:71)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+02-12-2019 18:45:33.063 [RMI TCP Connection(11)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+02-12-2019 18:45:33.065 [RMI TCP Connection(11)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+02-12-2019 18:45:41.572 [main] INFO  c.d.dawangj.demo.DawangjApplication.logStarting - Starting DawangjApplication on HANM14698.local with PID 74963 (/Users/dawang/Documents/workspace-spring-tool-suite-4-4.3.0.RELEASE/dawangj/target/classes started by dawang in /Users/dawang/Documents/workspace-spring-tool-suite-4-4.3.0.RELEASE/dawangj)
+02-12-2019 18:45:41.574 [main] INFO  c.d.dawangj.demo.DawangjApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+02-12-2019 18:45:42.148 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+02-12-2019 18:45:42.165 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+02-12-2019 18:45:42.166 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.21]
+02-12-2019 18:45:42.223 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+02-12-2019 18:45:42.365 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+02-12-2019 18:45:42.421 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping.<init> - Adding welcome page: class path resource [static/index.html]
+02-12-2019 18:45:42.498 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+02-12-2019 18:45:42.502 [main] INFO  c.d.dawangj.demo.DawangjApplication.logStarted - Started DawangjApplication in 1.152 seconds (JVM running for 1.673)
+02-12-2019 18:45:55.241 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'

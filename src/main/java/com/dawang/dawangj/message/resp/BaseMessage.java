@@ -1,4 +1,4 @@
-package com.dawang.dawangj;
+package com.dawang.dawangj.message.resp;
 
 /**
  * 消息基类（普通用户 -> 公众帐号）

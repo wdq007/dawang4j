@@ -2,6 +2,7 @@ package com.dawang.dawangj.demo;
 
 
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
@@ -17,6 +18,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.dawang.dawangj.SignatureUtil;
+import com.dawang.dawangj.demo.dispatcher.EventDispatcher;
+import com.dawang.dawangj.demo.dispatcher.MsgDispatcher;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -60,6 +63,17 @@ public class WxController {
         System.out.println("==========进入 post 方法！==============================");
         try{
         Map<String, String> map=MessageUtil.parseXml(request);
+        String msgtype=map.get("MsgType");
+        if(MessageUtil.REQ_MESSAGE_TYPE_EVENT.equals(msgtype)){
+            EventDispatcher.processEvent(map); //进入事件处理
+        }else{
+        	response.setCharacterEncoding("utf-8");
+        	String respXML = MsgDispatcher.processMessage(map); //进入消息处理
+        	PrintWriter out = response.getWriter();
+        	out.print(respXML);
+        	out.flush();
+        	out.close();
+        }
         System.out.println("==========发给公众号： "+appid+" 的消息===================\n"+map.get("Content"));
         }catch(Exception e){
             log.error(e.toString(),e);
